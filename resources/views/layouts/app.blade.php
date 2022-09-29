@@ -8,7 +8,7 @@
 </head>
 <body>
 
-@include('layouts.navbar')
+<x-navbarku></x-navbarku>
 
 @yield('content')
 
