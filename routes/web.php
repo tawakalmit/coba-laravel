@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 Route::get('/profile', function () {
     $name = "Ikbal";
     return view('profile', [
