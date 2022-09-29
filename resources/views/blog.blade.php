@@ -1,3 +1,5 @@
-@extends('layouts.app', ['title' => 'Blog Page'])
+@extends('layouts.app', ['title' => 'blog'])
 
-@section('content', 'Ini adalah halaman blog')
+@section('content')
+    <h1 class="text-[#1abc9c]">Blog</h1>
+@endsection
